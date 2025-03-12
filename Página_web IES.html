@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>IES Villaverde</title>
+    <link rel="stylesheet" href="PáginaPrincipal.css">
+</head>
+<body>
+<!-- Encabezado -->
+<header style="text-align: right;">
+    <nav>
+      <ul style="list-style: none; margin: 0; padding: 0; display: inline-block;">
+        <li style="display: inline-block; margin-right: 20px;">
+          <a href="ciclos.html">Ciclos Formativos</a>
+        </li>
+        <li style="display: inline-block; position: relative;">
+          <a>Secretaría</a>
+             
+</header>
+    <!-- Contenido principal -->
+    <main>
+        <section id="informacion-centro">
+            <h1 text align = center style="color: chartreuse;">Bienvenidos al IES Villaverde</h1>
+            <img src="CABECERA_VILLAVERDE2.png" alt="Foto de ejemplo" width="100%">
+            <div class="cuadro">
+                <section>
+                    <h2 style="color: rgb(1, 198, 60);">Galería</h2>
+                    <p>Aquí puedes ver las instalaciones del centro.</p>
+                    <div class="carousel">
+                      <img src="informatica.jpg" alt="Informatica" class = "imagen">
+                      <img src="salaprofesores.png" alt="salaprofesores" class = "imagen">
+                      <img src="educacioninfantil.jpg" alt="educacioninfantil" class = "imagen">
+                      <img src="salondeactos.jpg" alt="salondeactos" class = "imagen">
+                      <img src="tallerinformatica.jpg" alt="educacioninfantil" class = "imagen">
+                      <img src="auladam.jpg" alt="auladam" class = "imagen">
+                      <img src="auladaw.jpg" alt="auladaw" class = "imagen">
+                      <img src="laboratorio.jpg" alt="laboratorio" class = "imagen">
+                    </div>
+                  </section>
+                
+            </div>
+            <div class="cuadro">
+                <h2  style="color: rgb(1, 198, 60);">Información del centro</h2>
+                <ul>
+                  <li>917239181</li>
+                  <li>ies.villaverde.madrid@educa.madrid.org</li>
+                  <li>secretaria.ies.villaverde.madrid@educa.madrid.org</li>
+                  <li>iesvillaverde.es</li>
+                  <li>C/Alianza 20-24, 28041 MADRID</li>
+                  <li>8:15-21:00</li>
+                </ul>
+            </div>
+            <div class="form-container">
+              <h2>Buzón de Sugerencias</h2>
+              <link rel="stylesheet" href="Formulario.css">
+              <form action="#" method="post">
+                  <label for="nombre">Nombre: <span class="required">*</span></label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                  
+                  <label for="email">Correo Electrónico: <span class="required">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                  
+                  <label for="asunto">Asunto:</label>
+                  <input type="text" id="asunto" name="asunto" placeholder="¿De qué trata tu sugerencia?">
+                  
+                  <label for="mensaje">Mensaje: <span class="required">*</span></label>
+                  <textarea id="mensaje" name="mensaje" placeholder="Escribe tu sugerencia aquí..." rows="5" required></textarea>
+                  
+                  <button type="submit">Enviar</button>
+              </form>
+          </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <h3>Contacto</h3>
+        <p>Email: ies.villaverde.madrid@educa.madrid.org</p>
+        <p>Teléfono: 917239181 </p>
+    </footer>
+</body>
+</html>
